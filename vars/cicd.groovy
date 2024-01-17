@@ -4,5 +4,5 @@ def gitDownload(repo)
 }
 def mavenBuild()
 {
-  sh 'mvn package'
+    sh 'mvn package'
 }
