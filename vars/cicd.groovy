@@ -1,6 +1,6 @@
 def gitDownload(repo)
 {
-   git "https://github.com/ANYA-123/${repo}.git"
+   git "https://github.com/intelliqittrainings/${repo}.git"
 }
 
 def mavenBuild()
@@ -17,3 +17,5 @@ def runSelenium(jobname)
 {
   sh "java -jar /var/lib/jenkins/workspace/${jobname}/testing.jar"
 }
+
+
